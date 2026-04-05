@@ -21,7 +21,7 @@ namespace bot
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            Telegram.bot.token = " enter token here ";
+            Telegram.bot.token = " 8667344561:AAGreK2mLy44pkEtodbUDtdx0bm62I170IE ";
             CheckForIllegalCrossThreadCalls = false;
             backgroundWorker1.RunWorkerAsync();
         }
@@ -32,7 +32,7 @@ namespace bot
             while (true)
             {
                 string gem = "0";
-                string admin_id = "363232437, 328567398";
+                string admin_id = "8339225296";
                 Telegram.bot.update = "True";
                 textBox1.Text = Telegram.bot.update;
                 if (Telegram.bot.message_text == "/start")
