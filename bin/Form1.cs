@@ -21,7 +21,7 @@ namespace bot
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            Telegram.bot.token = " enter token here ";
+            Telegram.bot.token = " 8667344561:AAGreK2mLy44pkEtodbUDtdx0bm62I170IE ";
             CheckForIllegalCrossThreadCalls = false;
             backgroundWorker1.RunWorkerAsync();
         }
